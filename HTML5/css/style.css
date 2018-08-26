@@ -1,0 +1,8 @@
+body, p, div, span { font-size: 20pt; }
+p { color: red; }
+div { color: green; }
+span {
+      color: blue;
+      background-color: lightgray;
+}
+#div-warn{ color :red; text-align: center; font-weight: bold;}
