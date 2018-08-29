@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+</head>
+<body>
+
+<div id="draggable" class="ui-widget-content">
+    <img src="img/tenor.gif" draggable="true" ondragstart="drag(event)" id="drag2" width="100" height="50">  
+</div>
+
+<div id="draggable" class="ui-widget-content">
+    <img src="img/index.png" draggable="true" ondragstart="drag(event)" id="drag3" width="100" height="50">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "webapp",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webapp"
+  ],
+  "author": "oun1982",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "asterisk.io": "^0.1.1",
+    "express": "^4.16.3",
+    "jade": "^1.8.2",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.3"
+  }
+}
